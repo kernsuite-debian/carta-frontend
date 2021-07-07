@@ -1,0 +1,24 @@
+carta-frontend (2.0.0-1kern1) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Initial upload to KERN
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 07 Jul 2021 13:23:50 +0000
+
+carta-frontend (2.0.0-1~focal1) focal; urgency=medium
+
+  * v2.0: Feature enhancement and codebase maintenance (released 7th June 2021) 
+  * Multi-profile plot with the spectral profiler
+  * Progress report and cancellation when requesting a long file list
+  * Forming a Stokes hypercube at image loading stage
+  * Colorbar display in the image viewer and enhanced raster image config widget
+  * Support rectangular pixel rendering for PV image
+  * Filtering function in the spectral line query widget
+  * Enhanced FITS and CASA image support
+  * Saving subimage
+  * Searching a keyword from image header
+  * Profile fitting in the spectral profiler 
+  * Marker-based catalog rendering and performance enhancement
+  * New deployment modes
+
+ -- Adrianna Pińska <adrianna.pinska@gmail.com>  Fri, 04 Jun 2021 11:22:13 +0200

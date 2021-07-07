@@ -1,0 +1,30 @@
+Source: carta-frontend
+Section: science
+Priority: optional
+Maintainer: Adrianna Pińska <adrianna.pinska@gmail.com>
+Uploaders: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.5.0
+Homepage: https://github.com/CARTAvis/carta-frontend
+Vcs-Browser: https://github.com/idia-astro/carta-frontend-deb
+Vcs-Git: https://github.com/idia-astro/carta-frontend-deb.git
+
+Package: carta-frontend
+Architecture: all
+Depends: ${misc:Depends}
+Conflicts: carta-frontend-beta
+Description: CARTA - Cube Analysis and Rendering Tool for Astronomy
+ CARTA is a next generation image visualization and analysis tool designed for ALMA, VLA, and SKA pathfinders.
+ .
+ This package provides the release version of the frontend component.
+
+Package: carta
+Architecture: all
+Depends: ${misc:Depends},
+         carta-frontend,
+         carta-backend
+Conflicts: carta-frontend-beta
+Description: CARTA - Cube Analysis and Rendering Tool for Astronomy
+ CARTA is a next generation image visualization and analysis tool designed for ALMA, VLA, and SKA pathfinders.
+ .
+ This package provides the release version of the frontend and backend component.
